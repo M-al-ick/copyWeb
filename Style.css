@@ -1,0 +1,337 @@
+header img{ 
+    width: 300px;
+    margin-right: 250px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ul{
+    display: flex;
+    margin: 10px;
+}
+li a {
+    margin: 10px;
+    text-decoration: none;
+    padding-left: 50px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.img img{
+    width: 45px;
+    margin-left: 325px;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+.rii{
+    display: flex;
+    flex-direction: column;
+}
+.rii h1{
+    color: #00B8BB;
+    text-align: center;
+}
+.santé{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+}
+.bo p{
+    width: 90%;
+    margin: 0%;
+    text-align: left;
+}
+.ba p{
+    width: 90%;
+    margin: 0%;
+    text-align: right;
+}
+.patient{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 300px;
+} 
+.Doctors{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.Clinics{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.container .patient{
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    background-color: #0eb3b5;
+    margin: 30px;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+}
+.container .Doctors{
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    background-color: rgb(32, 189, 251);
+    border-radius: 10px;
+}   
+.container .Clinics{
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+.culture p{
+    color: #00B8BB;
+    text-align: center;
+}
+.culture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+    width: 250px;
+}
+.lien{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+.liens ul li {
+    display: flex;
+    margin-left: 200px;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    color: lightgray;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 100px;
+    width: 30px;
+    height: 30px;
+}
+.liens li a:hover{
+    color: aquamarine;
+}
+.lien ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+.plateforme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #DFF8F6;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+
+}
+
+.grand {
+    display: flex;
+    flex-direction: column;
+    margin-right: 355px;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+.pays {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.Patients {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    height: 200px;
+    text-align: center;
+}
+
+.calendrier {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.docteur {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    height: 200px;
+}
+
+.cd {
+    margin: 12px 20px 20px;
+}
+
+.pp {
+    margin-top: 63px;
+}
+.plateforme h1{
+    color:#1abc9c ;
+}
+
+.submit{
+    padding: 5px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,313px);
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+.ameliorer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ameliorer h1{
+    text-align: center;
+    color: #00CCB1;
+}
+.ameliorer p{
+    color:#AEACAB ;
+    text-align: center;
+}
+.coéquipiers img{
+    border-radius: 10px 10px 0 0;
+    
+}
+.coéquipiers a{
+    text-decoration: none;
+    color: #747486;
+}
+.pays1{
+    border-radius: 10px;
+     border:1px solid  rgba(0,0,0,.03);
+     background-color: #FFFFFF;
+     display: block;
+}
+.pays2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    
+}
+.pays1:hover{
+    box-shadow: 0 5px 8px 0 lightslategray;
+}
+.submit1{
+    background-color: #3D83DF;
+    border-radius: 6px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    border: 0;
+    padding: 5px;
+    color: #FFFFFF;
+}
+.coéquipiers p{
+    margin-left: 20px;
+}
+.interessant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+}
+.interessant h1{
+    color: #333333;
+    text-align: center;
+    
+}
+.interessant a{
+    text-decoration: none;
+    background-color: #3D83DF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+}
+.interessant a:hover{
+    color: lightblue;
+}
+.paysleaders a{
+    color: #3D83DF;
+    text-decoration: none;
+
+}
+.paysleaders a:hover{
+    text-decoration: underline #3D83DF;
+}
+/*style footer*/
+footer p{
+    text-align: center;
+    color: #AEACAB;
+}
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
